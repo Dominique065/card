@@ -1,16 +1,77 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <meta charset="utf-8" />
-        <title>Tytuł strony</title>
-        <meta name="description" content="opis strony" />
-        <meta name="keywords" content="słowa, kluczowe" />
-        <meta http-equiv="X-UA-Compatible" content="IE=dge,chrome=1" />
 
-        <link rel="stylesheet" href="style.css" type="text/css" />
-    </head>
-    <body>
-        <h1>Na razie strona jest w kiepskim stanie z powodu braku weny twórczej. W najbliszym czasie się to zmieni :)</h1>
-    </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="słowa, kluczowe" />
+  <meta http-equiv="X-UA-Compatible" content="IE=dge,chrome=1" />
+
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <title>Wizytówka</title>
+  <meta name="description" content="Wizytówka">
+  <meta name="author" content="Dominika Korbas">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
+
+  <script src="style.js"></script>
+</head>
+
+<body>
+  <nav id="idMenu" class="menu">
+    <a href="javascript:;" class="menuButton">☰ Menu</a>
+    <ul>
+      <li><a class="zwijanie" href="#main">Strona główna</a></li>
+      <li><a class="zwijanie" href="#author">O autorce</a></li>
+      <li><a class="zwijanie" href="#hobby">Zainteresowania</a></li>
+      <li><a class="zwijanie" href="#contact">Kontakt</a></li>
+      <li><a class="zwijanie" href="#gallery">Galeria</a></li>
+    </ul>
+  </nav>
+
+  <section id="main" class="logo1">
+    <p class="p1">Wizytówka</p>
+    <p class="p2">czyli kim jest Dominika Korbas</p>
+  </section>
+
+  <div id="author" class="tytulRamki"> <h2>O autorce</h2> </div>
+  <div class="container">
+    a
+  </div>
+
+  <div id="hobby" class="tytulRamki"> <h2>Zainteresowania</h2> </div>
+  <div class="container">
+    f
+  </div>
+
+  <div id="contact" class="tytulRamki"> <h2>Formularz</h2> </div>
+  <div class="container">
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Wypełnij
+      formularz</button>
+    <div class="modal fade" id="myModal" role="dialog" style="padding: 0 0 0 0; margin: 0 0 0 0;">
+      <div class="modal-dialog">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdSDqtcreX0qGpVBarZUfi7oGBZJBwGQbi6DBeXPE3tEp5Kcg/viewform?embedded=true"
+          frameborder="0" marginheight="0" marginwidth="50">Loading…</iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id="gallery" class="tytulRamki"> <h2>Galeria</h2> </div>
+  <div class="container">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</body>
 
 </html>
