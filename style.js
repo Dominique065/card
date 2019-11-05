@@ -22,3 +22,10 @@ $(function () {
   });
 });
 
+$(function() {
+	$('.pop').on('click', function() {
+		$('.imagepreview').attr('src', $(this).attr('href'));
+		$('#imagemodal').modal('show');  
+		return false;
+	});		
+});
