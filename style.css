@@ -253,9 +253,10 @@ iframe
       display:flex;
   }
 
-.overlay
-{
-  min-width: 100px;
+  .overlay
+  {
+    min-width: 160px;
+  }
 }
 
 @media all and (min-width: 1000px) {
@@ -270,7 +271,7 @@ iframe
   }
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1200px) {
   .container
   {
     margin-bottom: 20px;
