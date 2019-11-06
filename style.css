@@ -45,12 +45,12 @@
 
 .logo1 .p1
 {
-  font-size: min(7vw,70px);
+  font-size: 6vw;
 }
 
 .logo1 .p2
 {
-  font-size: min(3.5vw,35px);
+  font-size: 3.5vw;
 }
 
 .box1
@@ -194,7 +194,8 @@ iframe
 .overlay
 {
   flex:1;
-  flex-basis: max(300px,45%);
+  flex-basis: 45%;
+  min-width: 300px;
   flex-grow: 1;
 	height: auto;
   transition: all 0.2s ease-in-out;
@@ -249,4 +250,16 @@ iframe
       display:flex;
   }
 
+}
+
+@media all and (min-width: 1000px) {
+  .logo1 .p1
+  {
+    font-size: 60px;
+  }
+
+  .logo1 .p2
+  {
+    font-size: 35px;
+  }
 }
