@@ -93,7 +93,6 @@ button[type="button"]
   margin:10px;
   flex:3;
   flex-basis: 60%;
-  min-width: 300px;
   text-align: justify;
   align-self: center;
 }
@@ -254,6 +253,9 @@ iframe
       display:flex;
   }
 
+.overlay
+{
+  min-width: 100px;
 }
 
 @media all and (min-width: 1000px) {
