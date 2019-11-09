@@ -99,6 +99,7 @@ button[type="button"]
 
 .przycisk
 {
+  margin-top:20px;
   width: 100%;
   text-align: center;
 }
@@ -170,6 +171,7 @@ iframe
   border-style: double;
   border-width: 3px;
   border-color: white;
+  text-align: justify;
 }
 
 .ikony i
@@ -219,6 +221,22 @@ iframe
 	transform: scale(0.9);
 }
 
+.jump {
+  animation-name: skakanie;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+@keyframes skakanie {
+  0%   {transform: scale(1,1); }
+  10%  { transform: scale(1.1,.9); }
+  30%  { transform: scale(.9,1.1) translateY(-15px); }
+  50%  { transform: scale(1.05,.95); }
+  60%  { transform: scale(1,1) translateY(-5px); }
+  64%  { transform: scale(1,1); }
+  100% { transform: scale(1,1); }
+}
 @media all and (max-width: 600px) {
   
   .menu li 
